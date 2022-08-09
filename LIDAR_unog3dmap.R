@@ -27,3 +27,22 @@ rgl.snapshot(filename = paste0("exports/LIDAR_unog",format(Sys.time(), "%Y-%m-%d
 #
 #
 # Get Swiss open LIDAR data from here: https://www.swisstopo.admin.ch/en/geodata/height/surface3d.html
+
+
+###------------------###
+# Clipping the LAS data
+
+avgX = mean(my_LAS$X) # With the current LAS data set it's 2499833.14959348
+avgY = mean(my_LAS$Y) # With the current LAS data set it's 1120016.31805795
+LAS_CIRplot = clip_circle(my_LAS, avgX, avgY, 1000)
+LAS_RECplot = clip_rectangle(my_LAS, avgX - 20 - 500 , avgY + 80 - 500, avgX + 130 + 500, avgY + 230 + 500)
+UNOGLibrary_closeup <- clip_rectangle(my_LAS, avgX - 20 , avgY + 80 , avgX + 130, avgY + 230)
+
+
+plot(UNOGLibrary_closeup,
+     pal = viridis(256),
+     bg = "white",
+     breaks = "equal")
+
+rgl.snapshot(filename = paste0("exports/LIDAR_unog",format(Sys.time(), "%Y-%m-%d_%H.%M.%OS"),".png"),
+             fmt="png")

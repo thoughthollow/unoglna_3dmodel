@@ -14,4 +14,15 @@ A less successful attempt using just the rayvista package has also been develope
 ![*rayvista render of UNOG*](exports/unog2022-08-08_22.53.35.png)
 
 
+
+Recently I've successfully used the [rayshader](https://github.com/tylermorganwall/rayshader) package to create some images. Examples below:
+
++ [*unoglib_rayshaded.R* example](exports/UNOGlib_rayshay_HQ.png)
+
++ [*readSTL_ThenViewWith_RGL* example](exports/unoglib_redrgl2022-08-26_08.30.53.png)
+
++ [*zoomedGVA.R* example](exports/zoomedGVA2022-08-27_13.14.32.stl.png)
+
+
+
 I hope to eventually combine LIDAR and OpenStreetMap data in order to create a more aesthetically pleasing model.

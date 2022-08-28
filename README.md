@@ -17,14 +17,14 @@ A less successful attempt using just the rayvista package has also been develope
 
 Recently I've successfully used the [rayshader](https://github.com/tylermorganwall/rayshader) package to create some images. Examples below:
 
-+ ![*unoglib_rayshaded.R* example](exports/UNOGlib_rayshay_HQ.png)
-*unoglib_rayshaded.R* example
+![*unoglib_rayshaded.R* example](exports/UNOGlib_rayshay_HQ.png)
+**unoglib_rayshaded.R** example
 
-+ ![*readSTL_ThenViewWith_RGL* example](exports/unoglib_redrgl2022-08-26_08.30.53.png)
-*readSTL_ThenViewWith_RGL* example
+![*readSTL_ThenViewWith_RGL* example](exports/unoglib_redrgl2022-08-26_08.30.53.png)
+**readSTL_ThenViewWith_RGL** example
 
-+ ![*zoomedGVA.R* example](exports/zoomedGVA2022-08-27_13.14.32.stl.png)
-*zoomedGVA.R* example
+![*zoomedGVA.R* example](exports/zoomedGVA2022-08-27_13.14.32.stl.png)
+**zoomedGVA.R** example
 
 
 
